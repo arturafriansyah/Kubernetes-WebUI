@@ -5,9 +5,7 @@
 # This is required for multi-host cluster where K8s can randomly
 # assign dashboard pods to any node in the cluster .
 # First version : Aug 2019
-# Last modified : Dec 2020
-
-#!/bin/bash
+# Last modified : Aug 2023
 
 # Check if the deployment uses k3d
 k3d=$(docker ps | grep server-0 | wc -l)
